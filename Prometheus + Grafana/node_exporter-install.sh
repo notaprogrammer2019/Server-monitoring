@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://github.com/prometheus/node_exporter/releases/download/v1.4.0/node_exporter-1.5.0.linux-amd64.tar.gz && tar xvf node_exporter-1.5.0.linux-amd64.tar.gz && rm node_exporter-1.5.0.linux-amd64.tar.gz && chmod +x $HOME/node_exporter-1.5.0.linux-amd64/node_exporter && mv $HOME/node_exporter-1.5.0.linux-amd64/node_exporter /usr/bin && rm -Rf $HOME/node_exporter-1.5.0.linux-amd64 && printf "EOF
+wget https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.linux-amd64.tar.gz && tar xvf node_exporter-1.5.0.linux-amd64.tar.gz && rm node_exporter-1.5.0.linux-amd64.tar.gz && chmod +x $HOME/node_exporter-1.5.0.linux-amd64/node_exporter && mv $HOME/node_exporter-1.5.0.linux-amd64/node_exporter /usr/bin && rm -Rf $HOME/node_exporter-1.5.0.linux-amd64 && printf "EOF
 [Unit]
 Description=node_exporter
 After=network-online.target
